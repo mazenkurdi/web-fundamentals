@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Selectors</title>
+    <style>
+      h1 {
+        color: red;
+        font-size: 36px;
+        text-align: center;
+      }
+
+      p {
+        width: 400px;
+      }
+
+      /* an h2 element that is the direct descendent of a section element */
+      section > h2 {
+        color: green;
+      }
+
+      /* a span element that is the direct descendent of a p element */
+      p > span {
+        color: yellow;
+      }
+
+      /* all span elements inside a section element */
+      section span {
+        font-size: 24px;
+      }
+
+      /* all elements with the class "highlight" */
+      .highlight {
+        background-color: red;
+      }
+
+      /* all p elements with the class "highlight" */
+      p.highlight {
+        font-style: italic;
+      }
+
+      /* all elements with class 'highlight' as well as 'main'. */
+      .main.highlight {
+        color: red;
+        background-color: black;
+        font-size: 24px;
+        width: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS Selectors</h1>
+    <section>
+      <h2>Introduction</h2>
+      <p id="introduction">
+        CSS adds the style to the html page. It consists of a series of rules
+        that specify how each element should be displayed. A CSS rule contains
+        two parts: a selector and a declaration.
+      </p>
+    </section>
+
+    <section>
+      <h2>CSS Selectors</h2>
+      <p>
+        <span class="highlight">CSS selectors</span> can be used to target all
+        elements of the same type, elements with a specific class, or elements
+        with an id.
+      </p>
+
+      <p class="highlight">
+        CSS selectors can be nested and can have all sorts of combinations to
+        target a specific element
+      </p>
+
+      <div class="main highlight">This is the main point</div>
+    </section>
+  </body>
+</html>
