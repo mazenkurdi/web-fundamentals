@@ -24,7 +24,7 @@ The objective of this assignment is to create a responsive portfolio website. Th
    - Optimize images for the web and implement them in a way that they scale appropriately based on screen size.
 
 ## Submission Guidelines:
-- Submit the assignment to hello@mazenkurdi.com as a ZIP file containing the `index.html` file, `style.css` file, and any other resources they used (e.g., images).
+- Submit the assignment to mazen@codewithmahara.com as a ZIP file containing the `index.html` file, `style.css` file, and any other resources they used (e.g., images).
 - Make sure to test the portfolio website on different devices and screen sizes to ensure it is fully responsive and visually appealing.
 
 ## Assessment Criteria:
