@@ -1,4 +1,4 @@
-## Setting Up Your Web Development Environment - Quick Instruction Manual
+## Setting Up Your Web Development Environment - Instruction Manual
 
 This quick instruction manual will guide you through setting up your web development environment by installing popular tools like Visual Studio Code, iTerm (for macOS), Git, and Homebrew.
 
